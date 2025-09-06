@@ -34,7 +34,7 @@ FraudBuster/
 │── README.md
 │── LICENSE
 ```
-🚀 Getting Started
+# 🚀 Getting Started
 1. Clone Repository
     git clone https://github.com/yourusername/FraudBuster.git
     cd FraudBuster
@@ -43,8 +43,9 @@ FraudBuster/
 3. Run Notebook
     Open the Jupyter notebook and explore:
         jupyter notebook notebooks/fraud_detection.ipynb
+---
 
-📊 Example Results (RandomForest)
+# 📊 Example Results (RandomForest)
     Metric	Score
     Accuracy	0.984
     Precision	0.89
@@ -54,7 +55,9 @@ Confusion Matrix:
     [[56851    13]
     [   15    83]]
 
-📦 Dataset
+---
+
+# 📦 Dataset
 
     This project uses the Credit Card Fraud Detection Dataset
     from Kaggle:
@@ -62,20 +65,20 @@ Confusion Matrix:
     Features: V1 … V28 (PCA-anonymized), Time, Amount
 
     Target: Class (0 = normal, 1 = fraud)
-
-📝 License
+---
+# 📝 License
 
     Distributed under the MIT License. See LICENSE for more information.
-
-💡 Future Ideas
+---
+# 💡 Future Ideas
 
     🔥 Try XGBoost / LightGBM for boosting performance
 
     🧪 Hyperparameter tuning with GridSearchCV
 
     🌐 Deploy a REST API with FastAPI or Flask for real-time fraud detection
-
-🤝 Contributing
+---
+# 🤝 Contributing
 
 Contributions are welcome! Fork the repo, make changes, and open a Pull Request 🚀
 
